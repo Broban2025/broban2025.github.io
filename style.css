@@ -93,7 +93,7 @@ header nav li a {
     text-align: center;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
+    text-transform: lowercase;
     vertical-align: middle;
     font-family: "Josefin Sans";
     font-weight: bold;
