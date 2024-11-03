@@ -85,7 +85,7 @@ header nav li {
 }
 
 header nav li:hover {
-    background-color: #0CC;
+    background-color: #0CD;
 }
 
 header nav li a {
@@ -94,7 +94,7 @@ header nav li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    margin-top: 13px;
+    vertical-align: middle;
     font-family: "Josefin Sans";
     font-weight: bold;
 }
