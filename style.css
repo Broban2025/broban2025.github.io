@@ -67,6 +67,7 @@ header nav {
     display: block;
     max-width: 900px;
     margin: auto;
+    align-items: center;
 }
 
 header nav ul {
