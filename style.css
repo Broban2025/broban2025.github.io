@@ -79,13 +79,13 @@ header nav li {
     display: inline-block;
     width: 16%;
     height: 50px;
-    background-color: #FF0000;
+    background-color: #0AB;
     margin: 0px;
     vertical-align: middle;
 }
 
 header nav li:hover {
-    background-color: #FF0000;
+    background-color: #0CD;
 }
 
 header nav li a {
@@ -93,7 +93,7 @@ header nav li a {
     text-align: center;
     text-decoration: none;
     color: white;
-    text-transform: lowercase;
+    text-transform: uppercase;
     vertical-align: middle;
     font-family: "Josefin Sans";
     font-weight: bold;
