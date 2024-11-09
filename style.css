@@ -168,6 +168,8 @@ header nav li a:first-letter {
     box-shadow:
     0 0 0 10px white,
     1px 2px 5px 11px rgba(0, 0, 0, 0.7);
+    height:30%;
+    width:30;
 }
 
 #contenu .cadre_20 {
