@@ -26,7 +26,7 @@
     font-family: "Gabrielle";
     src: url("polices/Gabrielle.ttf") format("truetype");
     font-weight: normal;
-    font-style normal;
+    font-style: normal;
 }
 
 
@@ -232,4 +232,49 @@ footer {
     margin: auto;
     margin-top: 20px;
     height: 100px;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.language-switcher a.active {
+    font-weight: bold;
+}
+
+.photo-gallery {
+    overflow: hidden; /* Contains floating elements */
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-container .photo {
+    max-width: 45%; /* Allows 2 photos per row with gap */
+    height: auto;
+    float: none; /* Removes float */
+    margin: 0; /* Removes default margins */
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .photo-container .photo {
+        max-width: 100%; /* Full width on mobile */
+    }
 }
