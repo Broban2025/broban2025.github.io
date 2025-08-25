@@ -278,3 +278,17 @@ footer {
         max-width: 100%; /* Full width on mobile */
     }
 }
+
+.spice-container {
+    margin-bottom: 30px;
+    overflow: hidden; /* Contains floating elements */
+}
+
+.spice-container p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.clear_float {
+    clear: both;
+}
