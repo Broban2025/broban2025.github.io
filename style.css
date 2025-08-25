@@ -282,19 +282,34 @@ footer {
 .spice-container {
     margin-bottom: 30px;
     overflow: hidden; /* Contains floating elements */
+    min-height: 180px; /* Ensure container is tall enough for image */
 }
 
 .spice-container p {
     text-align: justify;
     line-height: 1.6;
-    margin-right: 220px; /* Give space for the floating image */
+    margin-right: 240px; /* More space for the floating image */
 }
 
 .spice-container .photo {
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 15px;
+    float: right;
 }
 
 .clear_float {
     clear: both;
+}
+
+/* For smaller screens */
+@media (max-width: 900px) {
+    .spice-container p {
+        margin-right: 20px; /* Reset margin on small screens */
+    }
+    
+    .spice-container .photo {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
 }
