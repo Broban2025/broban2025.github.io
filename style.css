@@ -287,6 +287,12 @@ footer {
 .spice-container p {
     text-align: justify;
     line-height: 1.6;
+    margin-right: 220px; /* Give space for the floating image */
+}
+
+.spice-container .photo {
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 .clear_float {
